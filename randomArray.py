@@ -1,8 +1,8 @@
 import random
 arr = []
-addatt= 1
-while addatt == 1:
-    for i in range(9):
+addatt= 0
+while addatt == 0:
+    for i in range(10):
    
         rand = random.randint(1,20)
     
@@ -23,4 +23,4 @@ for i in range(temp1):
     else:
         addatt += 1
 print(arr)
-print(addatt)
+print(temp1)
